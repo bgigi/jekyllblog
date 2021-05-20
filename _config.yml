@@ -9,91 +9,22 @@ plugins:
   - jekyll-sitemap
 
 # Repository configuration
-repository:       jameswilson/jameswilson.github.io
+repository:       
 version:          2.4.1
 
 # Jekyll site configuration
-title:            James Wilson
+title:            test
 title_separator:  "&middot;"
 tagline:          Open Source Technologist &amp;&nbsp;Senior&nbsp;Web&nbsp;Developer
 description: >-   # Used in homepage metatag and RSS feed description.
                   The personal blog of James Wilson; senior web developer
                   at Bluespark and avid Open Source enthusiast.
-url:              https://www.elementalidad.com
+url:              https://bgigi/jekyllblog.io
 baseurl:          # the subpath of your site, e.g. "/blog"
 permalink:        /:year-:month-:day-:title
 paginate:         3
 
 # og:image metatag default (override this per post/page in post's front matter)
-image:            https://i.imgur.com/UNe5t4v.jpg
-
-analytics:
-  enabled:        true
-  tracking_ids:
-    - UA-1191719-1
-    - UA-45354089-1
-
-google:
-  search_engine_id: 005468932483752946890:jvbt67gzrjm
-
-facebook:
-  app_id:         1123868284446462
-  profile_id:     778599837
-
-pinterest:
-  account:        jrwilson3
-  domain_verify:  44c8ca43cf69c61e16d65e70aa643105
-
-mailchimp:
-  url:            https://elementalidad.us19.list-manage.com
-  user_id:        7457c00561f9e1cd9a49455fc
-  list_id:        b5c08ef710
-
-# Global author
-author:
-  schema_type:    Person # or Organization (see schema.org)
-  name:           James Wilson
-  first_name:     James
-  last_name:      Wilson
-  twitter:        jwilson3
-  url:            https://www.elementalidad.com/about
-  email:          jrwilson3@gmail.com
-  image:          /assets/img/avatar.png
-  description:    >-
-    James is a software developer with interests in travel, photography,
-    technical strategy, devops &amp; automation, and building complex,
-    performant, accessible websites.  He is a senior technical strategist
-    and the lead frontend developer at Bluespark.
-  links:
-    - https://about.me/jrwilson3
-    - https://twitter.com/jwilson3
-    - https://facebook.com/james.r.wilson.iii
-    - https://instagram.com/jrwilson3
-    - https://linkedin.com/in/jamesrwilson3
-    - https://pinterest.com/jrwilson3
-    - https://github.com/jameswilson
-    - https://drupal.org/u/jwilson3
-    - https://bluespark.com/team/james-wilson
-    - https://stackexchange.com/users/180306/jameswilson?tab=accounts
-    - https://open.spotify.com/user/125643039
-    - https://plus.google.com/+JamesWilsonIII
-    - https://www.paypal.me/jrwilson3
-
-# Calculate post reading time based on number of words.
-# A floating point number is required for the divide_by calcuation.
-words_per_minute: 180.0
-
-# Post excerpts
-# Remove or comment out the following line tells Jekyll to use the first
-# paragraph of each post as the excerpt.
-excerpt_separator: <!--more-->
-
-# Disqus comment configuration.
-# See _include/comments.html for usage.
-disqus:
-  enabled:              true
-  shortname:            jameswilson-blog
-  show_comment_counts:  true
 
 # Jekyll Feed plugin options
 feed:
